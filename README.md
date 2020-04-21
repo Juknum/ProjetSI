@@ -12,4 +12,6 @@ Les fichiers présents dans /ressources sont nécessaire mais n'ont pas été fa
 Le but premier de ce programme fût d'émettre un signal radio lors du tir via l'appui d'un bouton sous la gachette,  
 de réceptionner ce même signal sur la cible et de comparer avec la photo-diode si la cible a été touchée ou non. 
 
+N'hésitez pas à me MP pour plus d'informations sur ce projet :)
+
 > Note obtenue bac de SI : `15/20`
