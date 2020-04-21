@@ -1,4 +1,4 @@
-# Projet SI
+# Pistolet Laser - Projet SI - Terminale SSI
 Réalisation d'un pistolet laser, détection du tir et si la cible a été touchée  
 
 ## Pré-requis :
