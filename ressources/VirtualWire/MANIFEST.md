@@ -9,7 +9,3 @@ VirtualWire/VWutil/crc16.h
 VirtualWire/CHANGES
 VirtualWire/MANIFEST
 VirtualWire/keywords.txt
-VirtualWire/examples/client/client.pde
-VirtualWire/examples/transmitter/transmitter.pde
-VirtualWire/examples/receiver/receiver.pde
-VirtualWire/examples/server/server.pde

@@ -1,5 +1,8 @@
 //Entrées :
-const int button = 2;
+int button = 3;
+
+//Sorties
+int transistor = 4;
 
 #include <RH_ASK.h>
 #include <SPI.h>
@@ -15,21 +18,25 @@ void setup()
   rf_driver.init();
   
   pinMode(button, INPUT);
+  pinMode(transistor, OUTPUT);
   
 }
 
 //execution
 void loop() 
 {
-  int btn = digitalRead(button);
   const char *msg = "Welcome to the Workshop!";
-
-  if (btn == HIGH)
+  
+  digitalWrite(transistor, HIGH);
+  
+  if (digitalRead(button) == HIGH)
   {
-    Serial.println("Btn = HIGH");
+    Serial.println("button = HIGH");
     rf_driver.send((uint8_t *)msg, strlen(msg));
     rf_driver.waitPacketSent();
-    delay(1000);
+
+    digitalWrite(transistor, LOW);
+    Serial.println(transistor);
+    delay(50);
   }
 }
-
